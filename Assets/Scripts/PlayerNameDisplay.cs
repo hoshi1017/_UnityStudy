@@ -16,11 +16,6 @@ public class PlayerNameDisplay : MonoBehaviour
     private void FindPlayer()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-
-        if (player == null)
-        {
-            Debug.LogError("Player 오브젝트를 찾을 수 없습니다!");
-        }
     }
 
     private void Update()
@@ -49,7 +44,7 @@ public class PlayerNameDisplay : MonoBehaviour
         }
         else
         {
-            playerNameText.text = "Unknown Player";
+            playerNameText.text = "Unknown";
         }
     }
 }

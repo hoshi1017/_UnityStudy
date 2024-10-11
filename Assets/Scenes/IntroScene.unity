@@ -570,9 +570,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4152560272947399593, guid: 6a826bae6aa06c34aadab24331e82709, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4655944631050825123, guid: 6a826bae6aa06c34aadab24331e82709, type: 3}
       propertyPath: m_Name
       value: PinkMan
+      objectReference: {fileID: 0}
+    - target: {fileID: 5912958496264463623, guid: 6a826bae6aa06c34aadab24331e82709, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6308853255984904902, guid: 6a826bae6aa06c34aadab24331e82709, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7414419246624349846, guid: 6a826bae6aa06c34aadab24331e82709, type: 3}
       propertyPath: chars.Array.data[0]
@@ -582,6 +594,26 @@ PrefabInstance:
       propertyPath: chars.Array.data[1]
       value: 
       objectReference: {fileID: 1282186309}
+    - target: {fileID: 9069990396394487303, guid: 6a826bae6aa06c34aadab24331e82709, type: 3}
+      propertyPath: m_Size.x
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9069990396394487303, guid: 6a826bae6aa06c34aadab24331e82709, type: 3}
+      propertyPath: m_Size.y
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9069990396394487303, guid: 6a826bae6aa06c34aadab24331e82709, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9069990396394487303, guid: 6a826bae6aa06c34aadab24331e82709, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9069990396394487303, guid: 6a826bae6aa06c34aadab24331e82709, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -828,9 +860,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4152560272947399593, guid: 446dda49e5051e3449136388bd96fc53, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4655944631050825123, guid: 446dda49e5051e3449136388bd96fc53, type: 3}
       propertyPath: m_Name
       value: NinjaFrog
+      objectReference: {fileID: 0}
+    - target: {fileID: 5912958496264463623, guid: 446dda49e5051e3449136388bd96fc53, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6308853255984904902, guid: 446dda49e5051e3449136388bd96fc53, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614641339138623412, guid: 446dda49e5051e3449136388bd96fc53, type: 3}
+      propertyPath: character
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8614641339138623412, guid: 446dda49e5051e3449136388bd96fc53, type: 3}
       propertyPath: chars.Array.data[0]
@@ -840,6 +888,26 @@ PrefabInstance:
       propertyPath: chars.Array.data[2]
       value: 
       objectReference: {fileID: 656810650}
+    - target: {fileID: 9069990396394487303, guid: 446dda49e5051e3449136388bd96fc53, type: 3}
+      propertyPath: m_Size.x
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9069990396394487303, guid: 446dda49e5051e3449136388bd96fc53, type: 3}
+      propertyPath: m_Size.y
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9069990396394487303, guid: 446dda49e5051e3449136388bd96fc53, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9069990396394487303, guid: 446dda49e5051e3449136388bd96fc53, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9069990396394487303, guid: 446dda49e5051e3449136388bd96fc53, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1037,6 +1105,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4152560272947399593, guid: bc8d148efe791e7409499b3b2dcfae3b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4655944631050825123, guid: bc8d148efe791e7409499b3b2dcfae3b, type: 3}
       propertyPath: m_Name
       value: MaskDude
@@ -1049,6 +1121,14 @@ PrefabInstance:
       propertyPath: chars.Array.data[2]
       value: 
       objectReference: {fileID: 656810650}
+    - target: {fileID: 6308853255984904902, guid: bc8d148efe791e7409499b3b2dcfae3b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9069990396394487303, guid: bc8d148efe791e7409499b3b2dcfae3b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
