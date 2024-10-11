@@ -15,7 +15,7 @@ public class PlayerInputController : TopDownController
         CallMoveEvent(moveInput);
     }
 
-    public void OnLook(InputValue value) 
+    public void OnLook(InputValue value)
     {
         Vector2 newAim = value.Get<Vector2>();
         Vector2 worldPos = camera.ScreenToWorldPoint(newAim);

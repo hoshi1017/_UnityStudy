@@ -2,10 +2,10 @@
 using UnityEngine;
 
 public class TopDownAimRotation : MonoBehaviour
-{   
-    
+{
+
     private TopDownController controller;
-    [SerializeField]private SpriteRenderer characterRenderer;
+    [SerializeField] private SpriteRenderer characterRenderer;
     private void Awake()
     {
         controller = GetComponent<TopDownController>();
