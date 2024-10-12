@@ -31,10 +31,7 @@ public class PlayerNameDisplay : MonoBehaviour
         {
             
             Vector3 offset = new Vector3(0, 1.8f, 0);
-            Vector3 playerWorldPosition = player.transform.position + offset;
-            Vector3 screenPosition = Camera.main.WorldToScreenPoint(playerWorldPosition);
-
-            playerNameText.transform.position = screenPosition;
+            playerNameText.transform.position = Camera.main.WorldToScreenPoint(player.transform.position + offset);
         }
     }
 
