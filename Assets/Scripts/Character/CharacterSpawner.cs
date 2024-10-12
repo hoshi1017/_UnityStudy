@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Respawn : MonoBehaviour
+public class CharacterSpawner : MonoBehaviour
 {
     public GameObject[] charPrefabs;
-    public GameObject player;
+    private GameObject player;
     void Start()
     {
         player = Instantiate(charPrefabs[(int)DataManager.Instance.currentCharacter]);

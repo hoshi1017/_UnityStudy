@@ -29,7 +29,7 @@ public class PlayerNameDisplay : MonoBehaviour
         if (player != null && playerNameText != null)
         {
             
-            Vector3 offset = new Vector3(0, 1.5f, 0); 
+            Vector3 offset = new Vector3(0, 2f, 0); 
             playerNameText.transform.position = Camera.main.WorldToScreenPoint(player.transform.position + offset);
         }
     }
@@ -44,7 +44,8 @@ public class PlayerNameDisplay : MonoBehaviour
         }
         else
         {
-            playerNameText.text = "Unknown";
+            
+            playerNameText.text = "<color=#FF0000>" + "Unknown" + "</color>";
         }
     }
 }
