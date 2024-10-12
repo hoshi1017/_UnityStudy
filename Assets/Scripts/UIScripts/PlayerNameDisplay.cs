@@ -3,15 +3,15 @@ using UnityEngine.UI;
 
 public class PlayerNameDisplay : MonoBehaviour
 {
-    public Text playerNameText; 
+    public Text playerNameText;
     private GameObject player;
 
 
     private void Start()
     {
-        
+
         FindPlayer();
-        UpdatePlayerName();
+        UpdatePlayerName(DataManager.Instance.OutputPlayerName());
     }
 
     private void FindPlayer()
@@ -21,7 +21,8 @@ public class PlayerNameDisplay : MonoBehaviour
 
     private void Update()
     {
-        
+
+
         if (player == null)
         {
             FindPlayer();
@@ -29,24 +30,25 @@ public class PlayerNameDisplay : MonoBehaviour
 
         if (player != null && playerNameText != null)
         {
-            
+
             Vector3 offset = new Vector3(0, 1.8f, 0);
             playerNameText.transform.position = Camera.main.WorldToScreenPoint(player.transform.position + offset);
         }
     }
 
-    private void UpdatePlayerName()
+    public void UpdatePlayerName(string name)
     {
+
         
-        string playerName = DataManager.Instance.OutputPlayerName();
-        if (!string.IsNullOrEmpty(playerName))
+        if (!string.IsNullOrEmpty(name))
         {
-            playerNameText.text = playerName;
+            playerNameText.text = name;
         }
         else
         {
-            
+
             playerNameText.text = "<color=#FF0000>" + "Unknown" + "</color>";
         }
     }
+
 }

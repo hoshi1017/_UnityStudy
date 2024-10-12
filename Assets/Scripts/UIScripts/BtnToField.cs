@@ -7,17 +7,10 @@ public class BtnToField : MonoBehaviour
     public GameObject InputField;
     void Start()
     {
-        
+
     }
     public void SetInputField()
     {
         InputField.SetActive(true);
-    }
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
