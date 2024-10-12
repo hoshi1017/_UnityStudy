@@ -6,6 +6,7 @@ public class PlayerNameDisplay : MonoBehaviour
     public Text playerNameText; 
     private GameObject player;
 
+
     private void Start()
     {
         
@@ -29,8 +30,11 @@ public class PlayerNameDisplay : MonoBehaviour
         if (player != null && playerNameText != null)
         {
             
-            Vector3 offset = new Vector3(0, 1.8f, 0); 
-            playerNameText.transform.position = Camera.main.WorldToScreenPoint(player.transform.position + offset);
+            Vector3 offset = new Vector3(0, 1.8f, 0);
+            Vector3 playerWorldPosition = player.transform.position + offset;
+            Vector3 screenPosition = Camera.main.WorldToScreenPoint(playerWorldPosition);
+
+            playerNameText.transform.position = screenPosition;
         }
     }
 
