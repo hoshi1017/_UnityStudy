@@ -10,8 +10,8 @@ public class SelectChar : MonoBehaviour
     SpriteRenderer sr;
     public Character character;
 
-    public Color selectedColor = new Color(1f, 1f, 1f);
-    public Color deselectedColor = new Color(0.5f, 0.5f, 0.5f);
+    private Color selectedColor = new Color(1f, 1f, 1f);
+    private Color deselectedColor = new Color(0.5f, 0.5f, 0.5f);
 
     void Start()
     {
