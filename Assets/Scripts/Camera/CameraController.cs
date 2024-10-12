@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public float cameraSpeed = 10.0f;
+    private float cameraSpeed = 5.0f;
 
     private GameObject player;
     private void Start()
