@@ -32,7 +32,7 @@ public class PlayerNameDisplay : MonoBehaviour
             
             Vector3 offset = new Vector3(0, 1.8f, 0);
             playerNameText.transform.position = Camera.main.WorldToScreenPoint(player.transform.position + offset);
-        } // 이름을 표시하는 UI의 위치 -> 플레이어 보다 살짝 위
+        }
     }
 
     private void UpdatePlayerName()
