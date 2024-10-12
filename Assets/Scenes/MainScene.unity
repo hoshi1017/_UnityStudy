@@ -11304,19 +11304,7 @@ MonoBehaviour:
       m_Calls: []
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 335522740}
-        m_TargetAssemblyTypeName: UnityEngine.UI.InputField, UnityEngine.UI
-        m_MethodName: set_text
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
@@ -11522,6 +11510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NameField: {fileID: 335522740}
+  Btn: {fileID: 519444616}
 --- !u!1 &568554178
 GameObject:
   m_ObjectHideFlags: 0
